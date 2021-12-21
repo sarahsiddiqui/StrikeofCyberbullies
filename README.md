@@ -1,5 +1,5 @@
 # StrikeofCyberbullies
 
-This game took me more than 50 hours to develop and create and I worked extremely hard on utilizing all of the knowledge I had at that time. 
-Not only did I use all of the skills I learnt from my Grade 11 Computer Science course, but I also needed to learn many extra tools myself. It gave me a lot of independent working and problem solving skills and taught me the importance of coding efficiently to prevent the game from taking too long to load. 
-After finally finishing the game and being able to play it myself officially, I felt very proud of myself and satisfied. For the future, I strive to feel the same way for other works that I will produce and develop and put in the same amount of hard work, patience, and dedication into it as well. 
+User must get through the wall doors to earn points by dragging mouse up and down. Touching a 'bully' costs points, touching a 'helpless user' increases points. Hitting a wall costs one of the three lives alloted. Game over if all points are lost and score reaches zero, or if all lives are lost.
+
+Animated graphics of the games were created using the python library pygame. The game was divided into four main states; STATE_MENU, STATE_GAME, STATE_HELP, STATE_QUIT, STATE_INTERMISSION; each defined prior to the initialization of variables and the game loop. The function image.load() was utilized to incorporate online images into the game. Time was kept track of while running using time.Clock().
